@@ -1,0 +1,12 @@
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/bin/Debug/net8.0/Advanced.Shared.deps.json
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/bin/Debug/net8.0/Advanced.Shared.dll
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/bin/Debug/net8.0/Advanced.Shared.pdb
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/Advanced.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/Advanced.Shared.AssemblyInfoInputs.cache
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/Advanced.Shared.AssemblyInfo.cs
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/Advanced.Shared.csproj.CoreCompileInputs.cache
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/Advanced.Shared.dll
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/refint/Advanced.Shared.dll
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/Advanced.Shared.pdb
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/ref/Advanced.Shared.dll
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Shared/obj/Debug/net8.0/Advanced.Shared.csproj.AssemblyReference.cache

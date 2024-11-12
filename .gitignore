@@ -1,0 +1,80 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Rider-specific files
+.idea/
+*.sln.iml
+
+# User-specific Rider settings
+.idea/workspace.xml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/shelf/
+.idea/**/scratches/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.dylib
+*.so
+*.pdb
+*.cache
+
+# Other JetBrains specific files
+.idea_modules/
+.idea_contrib/
+.idea/.idea_modules/
+.idea/.idea_modules/*.iml
+.idea/*/.idea_modules/
+.idea/libraries/
+.idea/libraries/*.xml
+
+# Logs and database
+*.log
+*.sqlite
+*.sqlite-journal
+.idea/.idea/
+
+# Rider logs
+.idea/assetIndex.xml
+.idea/other.xml
+
+# ASP.NET Core/Entity Framework/SQL Server local databases
+*.mdf
+*.ldf
+*.ndf
+
+# VSCode Settings (optional)
+.vscode/
+
+# Rider run configurations
+.idea/runConfigurations/
+
+# Package directories and generated files
+node_modules/
+wwwroot/lib/
+.vscode/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testlog
+.trx
+.reports/
+
+# Crash, security, or other log files
+*.pid
+*.pid.lock
+
+# Auto-generated files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache directories
+.idea/

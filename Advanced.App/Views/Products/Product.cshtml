@@ -1,0 +1,51 @@
+@model IEnumerable<Advanced.Application.Responses.ProductResponse>
+@{
+ViewData["Title"] = "Product Catalog";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Product Catalog</h2>
+    <div class="row mt-4">
+        @foreach (var product in Model)
+        {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/p.png" class="card-img-top" alt="product">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                    <p><strong>Category:</strong> @product.Category</p>
+                    <p><strong>Price:</strong> $@product.Price</p>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+<script>
+    async function loadProducts() {
+        const response = await fetch('/api/products');
+        const products = await response.json();
+
+        let html = '';
+        products.forEach(product => {
+            html += `
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">${product.name}</h5>
+                            <p class="card-text">${product.description}</p>
+                            <p><strong>Category:</strong> ${product.category}</p>
+                            <p><strong>Price:</strong> $${product.price}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+
+        document.querySelector('.row').innerHTML = html;
+    }
+
+    document.addEventListener('DOMContentLoaded', loadProducts);
+</script>

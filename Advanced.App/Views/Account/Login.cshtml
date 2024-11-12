@@ -1,0 +1,69 @@
+@model Advanced.Application.Dtos.LoginDto
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Login</h4>
+                </div>
+                <div class="card-body">
+                    @if (TempData["LoginError"] != null)
+                    {
+                    <div class="alert alert-danger">
+                        @TempData["LoginError"]
+                    </div>
+                    }
+
+                    @if (TempData["LoginException"] != null)
+                    {
+                    <div class="alert alert-danger">
+                        @TempData["LoginException"]
+                    </div>
+                    }
+                    @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate" }))
+                    {
+                        <!-- Display general model errors here -->
+                        @Html.ValidationSummary(true, "Error", new { @class = "text-danger" })
+
+                        <div class="form-group">
+                            <label asp-for="Email" class="form-label"></label>
+                            <input asp-for="Email" type="email" class="form-control" required/>
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Password" class="form-label"></label>
+                            <input asp-for="Password" type="password" class="form-control" required/>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    }
+                </div>
+                <div class="card-footer text-center">
+                    <small>Don't have an account? <a href="@Url.Action("Register", "Account")">Register here</a>.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Bootstrap validation for frontend
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var forms = document.getElementsByClassName('needs-validation');
+            Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>

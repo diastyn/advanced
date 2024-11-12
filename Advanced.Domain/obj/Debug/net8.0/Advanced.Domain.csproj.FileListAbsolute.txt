@@ -1,0 +1,12 @@
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/bin/Debug/net8.0/Advanced.Domain.deps.json
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/bin/Debug/net8.0/Advanced.Domain.dll
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/bin/Debug/net8.0/Advanced.Domain.pdb
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/Advanced.Domain.csproj.AssemblyReference.cache
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/Advanced.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/Advanced.Domain.AssemblyInfoInputs.cache
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/Advanced.Domain.AssemblyInfo.cs
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/Advanced.Domain.csproj.CoreCompileInputs.cache
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/Advanced.Domain.dll
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/refint/Advanced.Domain.dll
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/Advanced.Domain.pdb
+/Users/diasibragim/RiderProjects/web/Advanced/Advanced.Domain/obj/Debug/net8.0/ref/Advanced.Domain.dll

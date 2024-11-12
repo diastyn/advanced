@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Welcome to E-Commerce Recommendation";
+}
+
+<div class="container my-5">
+    <!-- Hero Section with Background Image -->
+    <section class="text-center p-5 rounded-3 mb-4 hero-section" style="background-image: url('images/store.jpg'); background-size: cover; background-position: center;">
+        <h1 class="display-4 text-white">Welcome to E-Commerce Recommendation Platform</h1>
+        <p class="lead text-white">Discover products you’ll love with personalized recommendations tailored just for you.</p>
+        <div class="mt-4">
+            <a href="@Url.Action("Register", "Account")" class="btn btn-primary btn-lg me-2">Get Started</a>
+            <a href="@Url.Action("Login", "Account")" class="btn btn-outline-light btn-lg">Login</a>
+        </div>
+    </section>
+
+    <!-- Features Section with Feature Images -->
+    <section class="features text-center mb-5">
+        <h2 class="mb-4">Features</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card shadow-sm mb-4">
+                    <img src="images/shop.jpg" class="card-img-top" alt="Recommendations">
+                    <div class="card-body">
+                        <h5 class="card-title">Personalized Recommendations</h5>
+                        <p class="card-text">Get tailored product suggestions based on your preferences.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm mb-4">
+                    <img src="images/e.jpg" class="card-img-top" alt="Product Catalog">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Catalog</h5>
+                        <p class="card-text">Browse an extensive catalog with detailed descriptions and categories.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm mb-4">
+                    <img src="images/com.jpeg" class="card-img-top" alt="Purchase History">
+                    <div class="card-body">
+                        <h5 class="card-title">Purchase History</h5>
+                        <p class="card-text">Keep track of your favorite products and past purchases easily.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm mb-4">
+                    <img src="images/e-com.jpeg" class="card-img-top" alt="User-Friendly Interface">
+                    <div class="card-body">
+                        <h5 class="card-title">User-Friendly Interface</h5>
+                        <p class="card-text">Seamless navigation and easy-to-use platform for all users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about text-center mb-5">
+        <h3 class="text-muted">About Us</h3>
+        <p class="text-muted">Our platform is built to help you find products that match your preferences using advanced recommendation algorithms. We are dedicated to improving your shopping experience.</p>
+    </section>
+</div>
+
+<style>
+    /* Hero Section Styling */
+    .hero-section {
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 5rem 2rem;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-section h1, .hero-section p {
+        margin-bottom: 1rem;
+    }
+
+    /* Card Styling with Images */
+    .features .card {
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .features .card img {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .features .card:hover {
+        transform: translateY(-10px);
+    }
+
+</style>
